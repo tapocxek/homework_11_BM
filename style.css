@@ -18,3 +18,17 @@
    верхній та нижній по 10px,
    лівий та правий по 45px.
   */
+.box_container {
+  border: 3px dashed goldenrod;
+  margin: 25px;
+}
+.box {
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  border: 5px solid blue;
+  border-radius: 15px 25px 35px 45px;
+  padding: 10px 45px;
+}
